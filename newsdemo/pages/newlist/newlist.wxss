@@ -1,0 +1,154 @@
+/**text.wxss**/
+.box1{
+ background-color: white;
+  height: 160px;
+  width: 100%;
+}
+
+.box2{
+  background-color:white;
+   width: 100%;
+}
+.u-wrp-bnr{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+swiper-item{
+  overflow:hidden; 
+  border-bottom-left-radius: 3%;
+  border-bottom-right-radius: 3%;
+  border-top-left-radius: 3%;
+  border-top-right-radius: 3%;
+}
+
+.kongge{
+  height: 10px;
+}
+.one{
+  height: 40px;
+  font-style: normal;
+  font-family: "微软雅黑";
+  font-weight: bold;
+  display:block;
+  font-size:15px; 
+}
+
+
+.search{
+  width: 98%;
+}
+.search_arr {
+  background-color: white;
+  border-radius: 10rpx;
+  margin-left: 20rpx;
+}
+.search_arr input{
+  margin-left: 60rpx;
+  height: 60rpx;
+  border-radius: 5px;
+}
+.sousuo {
+  padding-left: 38%;
+  width: 15%;
+  line-height: 150%;
+  text-align: center;
+}
+.page_row{
+  display: flex;
+  flex-direction: row
+}
+.searchcion {
+  margin: 10rpx 10rpx 10rpx 10rpx;
+  position: absolute;
+  margin-left:38%;
+  z-index: 2;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+    }
+
+
+
+.textmargin {
+  float: left;
+}
+
+.news-avatar {
+  width: 130rpx;
+  height: 130rpx;
+  margin: 5rpx;
+  border-radius: 3%;
+  float: left;
+}
+
+#wordscard text {
+  font-size: .8em;
+}
+
+.rowalign {
+    flex-direction: row;
+    float: left;
+}
+.rowalign text {
+  padding-left: 10rpx;
+}
+
+.card, #wordscard {
+    background: #fff;
+    margin: 20rpx 14px;
+    padding: 20px 32rpx;
+    border-radius: 2%;
+    box-shadow: 0px 2px 10px 10px #e0e0e0;
+}
+
+.card {
+    background: #fff;
+}
+.short-card {
+    height: 250rpx;
+}
+
+.card button {
+    width: 400rpx;
+    margin-top: 30px;
+    margin-bottom: 25rpx;
+    /*margin: 10rpx 75rpx;*/
+}
+
+#wordscard {
+    height: 130px;
+}
+
+page, view {
+    font-family: arial,'pingfang sc',stheiti,"microsoft yahei",sans-serif
+}
+page {
+    background: #e0e0e0;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 1.2em;
+    padding-bottom: 20rpx;
+    padding-top: 20rpx;
+}
+
+.tag {
+    font-weight: 200;
+    font-size: .8em;
+    padding-bottom: 30rpx;
+    padding-top: 30rpx;
+    color: #006621;
+}
+
+.para {
+    font-size: .9em;
+    padding-bottom: 30rpx;
+    padding-top: 30rpx;
+}
+.tlink {
+    font-size: .7em;
+    color: #0e61af;
+    padding-top: 10rpx;
+    width: 100%;
+}
